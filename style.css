@@ -152,7 +152,7 @@ body {
 .left {
     width: 50%;
     height: 600px;
-    background: url("../images/img2.jpg") no-repeat center / cover;
+    background: url("./images/img2.jpg") no-repeat center / cover;
     border-radius: 10px;
 }
 
