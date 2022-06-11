@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Poppins&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    font-family: Poppins, 'Times New Roman', Times, serif;
+    font-size: 17px;
+    line-height: 1.5;
+    color: black;
+}
+
+.textLeft {
+    text-align: left;
+}
+
+.textJustify {
+    text-align: justify;
+}
+
+.section-b {
+    background-color: #fafafa;
+}
+
+.section-c {
+    display: flex;
+    background-color: rgb(204, 0, 0);
+}
+
+.banner-image {
+    background-image: url(./images/img1.jpg);
+    background-size: cover;
+}
+
+.content h1 {
+    font-family: 'Anton', sans-serif;
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    color: white;
+}
+
+.content p {
+    font-size: 1.2rem;
+    color: white;
+}
+
+.button {
+    font-family: 'Anton', sans-serif;
+    font-size: 18px;
+    font-weight: 900 !important;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 0 !important;
+}
+
+.nav-item {
+    padding: 0 20px;
+}
+
+.text-white {
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+#showcase {
+    background-image: url("../images/img1.jpg");
+    height: 100vh;
+    background-size: cover;
+    /* background-position: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 70px;
+    text-align: center;
+}
+
+#showcase h1 {
+    font-size: 50px;
+    line-height: 1.2;
+}
+
+#showcase p {
+    font-size: 20px;
+    color:white
+}
+
+#showcase .button {
+    font-size: 18px;
+    text-decoration: none;
+    color: #0d132a;
+    border: 2px solid #393e46;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+#showcase .button:hover {
+    background-color: #393e46;
+    color: white;
+}
+
+.section-a {
+    padding: 20px;
+    text-align: center;
+}
+
+.section-b {
+    padding: 50px;
+    text-align: center;
+}
+
+.section-c {
+    display: flex;
+
+}
+
+.box-container {
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    border: dotted 1px white;
+}
+
+
+
+.section-d {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e0ebeb;
+}
+
+.box-4 {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left {
+    width: 50%;
+    height: 600px;
+    background: url(../images/img2.jpg) no-repeat center / cover;
+    border-radius: 10px;
+}
+
+.right {
+    width: 50%;
+    min-height: 400px;
+    background-color: #2d4059;
+    color: #eeeeee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    border-radius: 10px;
+    margin-left: -150px;
+}
+
+.right h2 {
+    font-size: 45px;
+    font-weight: lighter;
+
+}
+
+.right p {
+    margin: 20px 0;
+    line-height: 20px;
+}
+
+.right a {
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #eeeeee;
+    padding: 20px 20px;
+    display: inline-block;
+    letter-spacing: 2px;
+
+}

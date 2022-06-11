@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formstyle.css">
+    <script src="https://kit.fontawesome.com/d0117fc563.js" crossorigin="anonymous"></script>
+    <script src="formjs.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Booking</h1>  
+        </div>
+        <form class="form" id="form">
+            <div class="left">
+                <div class="hero-form">
+                    <label>First Name</label>
+                    <input type="text" placeholder="ex: Popescu" id="firstname">
+                    <!-- <i class="fa-solid fa-check"></i>
+                    <i class="fa-solid fa-triangle-exclamation"></i> -->
+                    <small>Error</small>
+                </div>
+                <div class="hero-form">
+                    <label>Second Name</label>
+                    <input type="text" placeholder="ex: Andrei" id="secondname">
+                    <!-- <i class="fa-solid fa-check"></i>
+                    <i class="fa-solid fa-triangle-exclamation"></i> -->
+                    <small>Error</small>
+                </div>
+                <div class="hero-form">
+                    <label>Email adress</label>
+                    <input type="email" placeholder="ex: example@gmail.com" id="email">
+                    <!-- <i class="fa-solid fa-check"></i>
+                    <i class="fa-solid fa-triangle-exclamation"></i> -->
+                    <small>Error</small>
+                </div>
+                <div class="hero-form">
+                    <label>Phone</label>
+                    <input type="text" placeholder="ex: 0744XXXXXX" id="phone">
+                    <!-- <i class="fa-solid fa-check"></i>
+                    <i class="fa-solid fa-triangle-exclamation"></i> -->
+                    <small>Error</small>
+                </div>
+            </div>
+            <div class="right">
+                <div class="hero-form">
+                    <label>Date</label>
+                    <input type="date" id="date">
+                    <small>Error</small>
+                </div>
+                <div class="hero-form">
+                    <label>Time</label>
+                    <input type="time" id="time">
+                    <small>Error</small>
+                </div>
+                <div class="hero-form">
+                    <label>How many people</label>
+                    <select name="select" id="select">
+                        <option value="1">1 person</option>
+                        <option value="2">2 persons</option>
+                        <option value="3">3 persons</option>
+                        <option value="4">4 persons</option>
+                        <option value="5">5+ persons</option>
+                    </select>
+                </div>
+            </div>
+            <button type="submit">Book a table</button>
+
+        </form>
+    </div>
+    
+</body>
+</html>

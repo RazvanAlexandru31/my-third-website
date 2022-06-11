@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+ * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,75,1) 4%, rgba(7,59,119,1) 47%, rgba(0,212,255,1) 88%); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: Poppins, sans-serif;
+}
+
+.container {
+    background: #fcfafa;
+    border-radius: 10px;
+    width: 100vh ;
+}
+
+.header {
+    padding: 10px 40px;
+    font-size: x-large;
+}
+
+.header h1 {
+    color: #00296b;
+}
+
+.form {
+    padding: 10px 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.hero-form {
+    margin-bottom: 15px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.hero-form label {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.hero-form input {
+    display: block;
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px;
+    font-family: Poppins;
+    font-size: 12px;
+}
+
+.hero-form.success input {
+    border-color: #06d6a0;
+}
+
+.hero-form.error input {
+    border-color: #bf0603;
+}
+
+/* .hero-form i {
+    position: absolute;
+    top: 42px;
+    right: 25px;
+    visibility: hidden;
+} */
+
+/* .hero-form.success i.fa-check {
+    visibility: visible;
+    color: #06d6a0;
+}
+
+.hero-form.error i.fa-triangle-exclamation {
+    visibility: visible;
+    color: #bf0603
+} */
+
+.hero-form small {
+    position: absolute;
+    visibility: hidden;
+}
+
+.hero-form.error small {
+    visibility: visible;
+    color: #bf0603;
+}
+
+.hero-form.hero-form.success small {
+    visibility: visible;
+    color: #06d6a0;
+}
+
+button {
+    background: rgb(0,212,255);
+    background: radial-gradient(circle, rgba(0,212,255,1) 62%, rgba(80,130,153,1) 91%, rgba(105,105,121,1) 93%, rgba(7,59,119,1) 100%, rgba(2,0,36,1) 100%); 
+    width: 50%;
+    height: 50px;
+    border-radius: 6px;
+    font-family: Poppins;
+    color: #fcfafa;
+    font-size: 18px;
+    margin-left: 25%;
+}
+
+button:hover {
+    background: rgb(70,69,79);
+    background: linear-gradient(90deg, rgba(70,69,79,1) 10%, rgba(30,95,108,1) 16%, rgba(15,17,23,1) 36%, rgba(14,14,20,1) 52%, rgba(16,25,33,1) 76%, rgba(23,59,73,1) 84%, rgba(19,19,28,1) 100%); 
+    color: #fcfafa;
+}
+
+select {
+    display: block;
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px;
+    font-family: Poppins;
+    font-size: 12px;
+}
+
+.left {
+    width: 40vh;
+}
+
+.right {
+    width: 40vh;
+}
+
+@media only screen and (max-width: 870px) {
+    .form {
+        justify-content: center;
+    }
+
+    button {
+        margin-left: 0;
+    }
+}
